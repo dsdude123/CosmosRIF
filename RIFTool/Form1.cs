@@ -29,12 +29,6 @@ namespace RIFTool
             Application.Exit();
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            ImageExport export = new ImageExport();
-            export.Show();
-            
-            export.run((int)numericUpDown1.Value);
-        }
+       
     }
 }
