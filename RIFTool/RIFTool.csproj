@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{E2EF9640-9493-40DD-B43D-09563392168E}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>RailgunRenderer</RootNamespace>
-    <AssemblyName>RailgunRenderer</AssemblyName>
+    <RootNamespace>RIFTool</RootNamespace>
+    <AssemblyName>RIFTool</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -76,6 +76,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
